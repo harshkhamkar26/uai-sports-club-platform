@@ -1,0 +1,15 @@
+{
+  "name": "uai-sports-club-platform",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev:client": "npm run dev --workspace uai-sports-club-client",
+    "build:client": "npm run build --workspace uai-sports-club-client",
+    "dev:server": "npm run dev --workspace uai-sports-club-server",
+    "start:server": "npm run start --workspace uai-sports-club-server"
+  }
+}
